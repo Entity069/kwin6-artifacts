@@ -1,0 +1,27 @@
+{
+    "KPackageStructure": "KWin/Effect",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "entity069@protonmail.com",
+                "Name": "entity069"
+            }
+        ],
+        "Category": "Appearance",
+        "Description": "Smoothly animates window geometry changes from tiling scripts",
+        "EnabledByDefault": false,
+        "Id": "kwin4_effect_smooth_resizing",
+        "License": "Unlicense",
+        "Name": "Smooth Resizing",
+        "ServiceTypes": [
+            "KWin/Effect"
+        ],
+        "Version": "1.0"
+    },
+    "X-KDE-ConfigModule": "kcm_kwin4_genericscripted",
+    "X-KWin-Config-TranslationDomain": "kwin_effects",
+    "X-KDE-Ordering": "60",
+    "X-KDE-PluginKeyword": "kwin4_effect_smooth_resizing",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
