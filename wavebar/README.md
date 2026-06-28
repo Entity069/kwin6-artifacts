@@ -1,5 +1,7 @@
 # Wavebar
 
+![](media/preview.gif)
+
 A KDE Plasma 6 desktop widget that visualizes system audio as a wavebar. It bridges the raw binary output of [`cava`](https://github.com/karlstav/cava) to a QML frontend through a Qt6 plugin.
 
 ## Install
