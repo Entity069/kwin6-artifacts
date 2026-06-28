@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="waves" type="Int">
+            <default>16</default>
+            <label>bar count</label>
+        </entry>
+        <entry name="sensitivity" type="Int">
+            <default>100</default>
+            <label>sensitivity</label>
+        </entry>
+        <entry name="barStyle" type="Int">
+            <default>0</default>
+            <label>bar style</label>
+        </entry>
+        <entry name="colorMode" type="Int">
+            <default>0</default>
+            <label>color mode</label>
+        </entry>
+        <entry name="barColor" type="String">
+            <default>#3daee9</default>
+            <label>bar color</label>
+        </entry>
+        <entry name="gradientColors" type="String">
+            <default>#3daee9,#ff6600</default>
+            <label>gradient colors</label>
+        </entry>
+        <entry name="width" type="Int">
+            <default>300</default>
+            <label>widget width</label>
+        </entry>
+        <entry name="height" type="Int">
+            <default>80</default>
+            <label>widget height</label>
+        </entry>
+        <entry name="barWidth" type="Int">
+            <default>8</default>
+            <label>bar width</label>
+        </entry>
+        <entry name="barSpacing" type="Int">
+            <default>3</default>
+            <label>bar spacing</label>
+        </entry>
+        <entry name="cornerRadius" type="Int">
+            <default>3</default>
+            <label>bar corner radius</label>
+        </entry>
+        <entry name="barOpacity" type="Int">
+            <default>100</default>
+            <label>bar opacity</label>
+        </entry>
+        <entry name="framerate" type="Int">
+            <default>60</default>
+            <label>framerate</label>
+        </entry>
+        <entry name="riseSpeed" type="Int">
+            <default>80</default>
+            <label>rise speed</label>
+        </entry>
+        <entry name="releaseSpeed" type="Int">
+            <default>12</default>
+            <label>release speed</label>
+        </entry>
+        <entry name="noiseReduction" type="Int">
+            <default>77</default>
+            <label>noise reduction</label>
+        </entry>
+    </group>
+</kcfg>

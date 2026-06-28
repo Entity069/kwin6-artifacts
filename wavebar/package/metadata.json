@@ -1,0 +1,17 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "KPlugin": {
+        "Id": "entity069.wavebar",
+        "Name": "Wavebar",
+        "Description": "Audio Visualizer for KDE Plasma 6",
+        "Version": "1.0.0",
+        "Category": "Multimedia",
+        "Icon": "/icons/wavebar.svg",
+        "License": "Unlicense",
+        "Website": "https://github.com/entity069/kwin6-artifacts/wavebar",
+        "Author": "entity069",
+        "AuthorEmail": "entity069@protonmail.com"
+    },
+    "X-Plasma-MainScript": "ui/main.qml"
+}
